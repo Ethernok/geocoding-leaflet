@@ -17,7 +17,6 @@ function onLocationFound(e) {
  var radius = e.accuracy / 2;
  var geocodeService = L.esri.Geocoding.geocodeService();
  geocodeService.reverse().latlng(e.latlng).run(function(error, result) {
-        let dir = document.getElementById('direccion');
         marker_actual=L.marker(e.latlng).addTo(map);
         marker_actual.bindPopup(`Estas aquí, con ${radius} metros de aproximación`).openPopup();
         
@@ -68,7 +67,6 @@ map.on('click', function (e) {
         .run(function(error, results, response) {
           var mlat=results.results[0].latlng.lat;
           var mlon=results.results[0].latlng.lng;
-          var radius2 = 10;
           map.setView([mlat,mlon], 18);
           marker_actual=L.marker([mlat,mlon]).addTo(map);
           marker_actual.bindPopup(`El pedido está aquí: ${direc} `).openPopup();
@@ -87,7 +85,6 @@ map.on('click', function (e) {
           .run(function(error, results, response) {
             var mlat=results.results[0].latlng.lat;
             var mlon=results.results[0].latlng.lng;
-            var radius2 = 10;
             map.setView([mlat,mlon], 18);
             marker_actual=L.marker([mlat,mlon]).addTo(map);
             marker_actual.bindPopup(`El pedido está aquí: ${direc} `).openPopup();
