@@ -4,7 +4,7 @@ _This project tries to be a small application in which you can "place an order" 
 
 ## Starting 🚀
 
-_If you want to use the repository you can copy it without problem. You must have a local or external server and create the database with the .sql file that comes with the rep. As well as modify the database connection info in the conexion.php file. _
+_If you want to use the repository you can copy it without problem. You must have a local or external server and create the database with the .sql file that comes with the rep. As well as modify the database connection info in the conexion.php file._
 
 ### Pre-requisites 📋
 
