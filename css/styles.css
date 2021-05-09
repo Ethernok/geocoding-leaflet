@@ -1,0 +1,39 @@
+#Izq{
+    
+    float:left;
+    width: 60%;
+    box-sizing:border-box;
+    -moz-box-sizing:border-box;
+}
+#Der{
+    display: table-cell;
+    float:left;
+    width: 40%;
+    box-sizing:border-box;
+    -moz-box-sizing:border-box;
+}
+#map{
+    width: 95%; height: 430px;
+    
+}
+.header {
+    color: rgb(0, 225, 255);
+    font-size: 5rem;
+    font-weight: bold;
+}
+
+.bigicon {
+    font-size: 35px;
+    color: #36A0FF;
+}
+
+tr th{
+    border-top: 0;
+}
+#tabla-pedidos{
+    padding-top:0;
+}
+.card-header h5{
+    letter-spacing: 0.3rem;
+    font-weight: 600;
+}
