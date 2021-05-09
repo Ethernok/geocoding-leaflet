@@ -19,8 +19,8 @@ XAMPP, WAMPP or LAMPP for local usage
 
 * HTMl, CSS(Bootstrap 4) & JavaScript - Structure, styles & logic
 * PHP & MySQL - Database
-* LeafLet - API for map
-* Ajax - For orders
+* [LeafLet](https://leafletjs.com/) - API for map
+* [Jquery Ajax](https://api.jquery.com/jquery.ajax/) - For orders
 
 ## License 📄
 
